@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '= 4.2.6'
   s.add_dependency 'locomotivecms', '~> 3.2'
+  s.add_dependency 'mongoid', '~> 5.1.3'
 
   s.add_development_dependency 'rspec-rails'
 end
