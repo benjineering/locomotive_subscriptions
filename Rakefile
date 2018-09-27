@@ -17,3 +17,5 @@ end
 load 'rails/tasks/statistics.rake'
 
 Bundler::GemHelper.install_tasks
+
+load 'lib/tasks/locomotive_subscription_tasks.rake'
