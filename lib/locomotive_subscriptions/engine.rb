@@ -4,6 +4,7 @@ module LocomotiveSubscriptions
 
     config.generators do |g|
       g.test_framework :rspec
+      g.orm :mongoid
     end
   end
 end
