@@ -12,12 +12,14 @@ Gem::Specification.new do |s|
   s.summary     = 'Locomotive Subscriptions.'
   s.license     = 'MIT'
 
-  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
+  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_dependency 'rails', '4.2.10'
   s.add_dependency 'locomotivecms', '~> 3.3.0'
-  #s.add_dependency 'mongoid', '~> 5.1.3'
 
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'git'
+
+  # don't know why this is needed, but it is
+  s.add_development_dependency 'sass-rails', '~> 5.0'
 end
