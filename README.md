@@ -6,4 +6,6 @@
 
 ### TODO
 
-1. Looks like I'll need to copy the subscription specs into the engine with an install generator
+1. Get dummy set up
+1. Get specs passing
+1. Sort out namespace
