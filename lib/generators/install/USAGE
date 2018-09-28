@@ -1,0 +1,8 @@
+Description:
+    Run this once to copy files to the parent Locomotive CMS project.
+
+Example:
+    rails generate install
+
+    This will create:
+        spec/**/*_spec.rb

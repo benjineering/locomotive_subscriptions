@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.version     = LocomotiveSubscriptions::VERSION
   s.authors     = ['Ben Williams']
   s.email       = ['8enwilliams@gmail.com']
-  #s.homepage    = 'TODO'
   s.summary     = 'Locomotive Subscriptions.'
   s.license     = 'MIT'
 

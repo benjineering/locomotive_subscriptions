@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Locomotive::SubscriptionType, :type => :model do
+RSpec.describe Locomotive::SubscriptionType, type: :model, subscriptions: true do
   subject {
     Locomotive::SubscriptionType.new(
       days: '8',
