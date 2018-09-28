@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'pry'
 
 ENV['RAILS_ENV'] ||= 'test'
 ENGINE_ROOT = File.join(File.dirname(__FILE__), '../')

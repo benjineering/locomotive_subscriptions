@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'git'
+  s.add_development_dependency 'pry'
 
   # don't know why this is needed, but it is
   s.add_development_dependency 'sass-rails', '~> 5.0'
