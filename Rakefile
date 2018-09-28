@@ -4,10 +4,12 @@ rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
 
-# TODO: put this in some king of config file - probly YAML
+# TODO: put dummy constants in some kind of Rake config file 
 DUMMY_REPO_URL = 'https://github.com/benjineering/loco-app-extended.git'
+DUMMY_REPO_BRANCH = 'master'
+
 DUMMY_ROOT_DIR = File.join(__dir__, 'spec')
-DUMMY_DIR = 'dummy-bak'
+DUMMY_DIR = 'dummy'
 DUMMY_BAK_DIR = 'dummy-bak'
 DUMMY_PATH = File.join(DUMMY_ROOT_DIR, DUMMY_DIR)
 DUMMY_BAK_PATH = File.join(DUMMY_ROOT_DIR, DUMMY_BAK_DIR)
